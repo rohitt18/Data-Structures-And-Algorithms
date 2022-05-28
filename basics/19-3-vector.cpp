@@ -16,6 +16,11 @@ int main()
         cout<<i<<" ";
     }cout<<endl;
 
+    vector<int> b(a);
+    for(int i:b){
+        cout<<i<<" ";
+    }cout<<endl;
+
     cout<<"Size-> " << v.size() << endl;
 
     cout << "Capacity-> " << v.capacity() << endl;
