@@ -18,7 +18,7 @@ vector<int> reverse(vector<int> v)
 }
 
 void print(vector<int> v)
-{
+{  
 
     for (int i = 0; i < v.size(); i++)
     {
