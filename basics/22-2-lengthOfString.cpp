@@ -9,7 +9,7 @@ int getLength(char name[]){
     return count;
 }
 
-int main()
+int main() 
 {
     char name[20];
     cout << "Enter your name ";
@@ -19,6 +19,6 @@ int main()
     cout << name << endl;
 
     cout<<"Length of String: "<<getLength(name)<<endl;
-    
+
     return 0;
 }
