@@ -34,6 +34,12 @@ int main(){
     return 0;
 }
 
+
+
+
+
+// sum of n natural no.
+
 // int main() {
 //     int n;
 //     cin>>n;
