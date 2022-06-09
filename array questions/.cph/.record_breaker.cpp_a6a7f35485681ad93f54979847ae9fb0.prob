@@ -1,0 +1,1 @@
+{"name":"Local: record_breaker","url":"c:\\Users\\rohit\\OneDrive\\Desktop\\C++\\array questions\\record_breaker.cpp","tests":[{"id":1654767544972,"input":"8\n1 2 0 7 2 0 2 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\rohit\\OneDrive\\Desktop\\C++\\array questions\\record_breaker.cpp","group":"local","local":true}
