@@ -15,20 +15,20 @@ int main()
     cin.getline(arr,n);
     cin.ignore();
 
-    int i=0;
-    
-    int currLength = 0;
-    int maxLength = 0;
+    int i=0, currLength = 0, maxLength = 0;
+    int st=0, maxst=0;
 
     while(1){
 
         if( arr[i] == ' ' || arr[i] == '\0' ) {
             if( currLength > maxLength ) {
                 maxLength = currLength;
+                maxst = st;
             }
             currLength = 0;
+            st = i+1;
         }
-        else {
+        else { 
         currLength++;
         }
 
@@ -40,6 +40,10 @@ int main()
     }
 
     cout << maxLength << endl;
+
+    for(int i=0;i<maxLength;i++){
+        cout << arr[i + maxst];
+    }
 
     return 0;
 }
