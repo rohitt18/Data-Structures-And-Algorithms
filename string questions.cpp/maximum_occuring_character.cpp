@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    string s = "rohittgupptap";
+    string s = "output";
 
     int freq[26]={0};
 
