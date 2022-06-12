@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -19,9 +20,9 @@ int main()
     // str = s1 + s2;
     // cout<<str<<endl;
 
-    string s = "786";
-    int ans = stoi(s);
-    cout<<ans+4<<endl;
+    sort(s1.begin(),s1.end());
+    cout<<s1<<endl;
+   
 
     return 0;
 }
