@@ -21,7 +21,6 @@ int main()
 
     int i = 2;
     cout<<i[arr]<<endl;
-    */
 
    int temp[10] = {1,2};
 
@@ -34,6 +33,18 @@ int main()
    cout << sizeof(ptr) << endl;
    cout << sizeof(*ptr) << endl;
    cout << sizeof(&ptr) << endl;
+    */
+
+   int a[20] = {1,2,3};
+
+   cout << &a << endl;
+   cout << &a[0] << endl;
+   cout << a << endl;
+
+   int *p = &a[0];
+   cout << p << endl;
+   cout << *p << endl;
+   cout << &p << endl;
 
     return 0;
 } 
