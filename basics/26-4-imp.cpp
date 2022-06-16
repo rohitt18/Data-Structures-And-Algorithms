@@ -19,7 +19,7 @@ int main()
 {
     int arr[5] = {1,2,3,4,5};
 
-    cout << "Sum is " << getSum(arr,5);
+    cout << "Sum is " << getSum(arr+3,2);
 
     return 0;
 }
