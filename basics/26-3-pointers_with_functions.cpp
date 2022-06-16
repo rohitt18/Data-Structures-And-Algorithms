@@ -6,8 +6,11 @@ void print(int *p){
 }
 
 void update(int *p){
-    p = p + 1;
-    cout << "inside " << p << endl;
+    // p = p + 1;
+    // cout << "inside " << p << endl;
+
+    *p = *p + 1;
+    // cout << *p << endl;
 }
 
 int main()
@@ -16,11 +19,12 @@ int main()
     int *p = &value;
 
     print(p);
-
-    cout << "Before " << p << endl;
+    // cout << "Before " << p << endl;
+    cout << "Before " << *p << endl;
 
     update(p);
-    cout << "After " << p << endl;
+    // cout << "After " << p << endl;
+    cout << "After " << *p << endl;
 
     return 0;
 }
