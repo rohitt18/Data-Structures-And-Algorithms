@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[10]={2,5,6};
+    // int arr[10]={2,5,6};
 
     /*
     cout<<"Address of first memory block is " << arr << endl;
@@ -33,7 +33,6 @@ int main()
    cout << sizeof(ptr) << endl;
    cout << sizeof(*ptr) << endl;
    cout << sizeof(&ptr) << endl;
-    */
 
    int a[20] = {1,2,3};
 
@@ -45,6 +44,19 @@ int main()
    cout << p << endl;
    cout << *p << endl;
    cout << &p << endl;
+    */
+
+   int arr[10] = {0};
+
+// ERROR
+    // arr = arr + 1;
+
+    int *ptr = &arr[0];
+    cout<<ptr<<endl;
+    ptr = ptr + 1;
+    cout<<ptr<<endl;
+
+
 
     return 0;
 } 
