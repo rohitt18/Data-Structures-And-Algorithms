@@ -31,5 +31,16 @@ int main()
         }cout<<endl;
     }
 
+    // releasing memory
+    for(int i=0;i<row;i++){
+        delete [] arr[i];
+    }
+
+    delete []arr;
+
+    // how to create a 2D array dynamically 
+    // input/output
+    // memory free kaise karani hai
+
     return 0;
 }
