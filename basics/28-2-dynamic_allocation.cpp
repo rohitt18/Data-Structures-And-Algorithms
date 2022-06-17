@@ -32,6 +32,16 @@ int main()
 
     cout<<" answer is "<<ans<<endl;
 
+// case 1
+    while(1){
+        int i = 5;
+    }
+
+// case 2 
+    while(1){
+        int* ptr = new int;
+    }
+
 
     return 0;
 }
