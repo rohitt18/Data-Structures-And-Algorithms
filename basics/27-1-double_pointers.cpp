@@ -9,7 +9,7 @@ void update(int **p2){
     // kuch change hoga? -- YES
 
     **p2 = **p2 + 1;
-    // kuch change hoga?
+    // kuch change hoga? -- YES
 }
 
 int main()
