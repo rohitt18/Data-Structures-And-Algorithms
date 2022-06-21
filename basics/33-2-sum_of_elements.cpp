@@ -1,22 +1,19 @@
 #include <iostream>
 using namespace std;
 
-bool isSorted(int arr[], int n)
+int getSum(int arr[], int n)
 {
-
     // base case
-    if (n == 0 || n == 1)
-        return true;
+    if(n==0) return 0;
 
-    // processing
-    if (arr[0] > arr[1])
-        return false;
+    if(n==1) return arr[0];
 
-    else
-    {
+    else{
         // RR
-        return isSorted(arr + 1, n - 1);
+        int sum = arr[0] + getSum(arr+1,n-1);
+        return sum;
     }
+
 }
 
 int main()
@@ -35,11 +32,8 @@ int main()
             cin >> arr[i];
         }
 
-        bool ans = isSorted(arr, n);
+        int ans = getSum(arr, n);
 
-        if (ans)
-            cout << "YES" << endl;
-        else
-            cout << "NO" << endl;
+        cout <<"Sum is " << ans << endl;
     }
 }
