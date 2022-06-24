@@ -1,4 +1,5 @@
-#include <iostream>
+// #include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 bool linearSearch(int arr[], int n, int key)
