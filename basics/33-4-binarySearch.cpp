@@ -29,7 +29,7 @@ bool binarySearch(int *arr,int s,int e,int k){
     else{
         return binarySearch(arr,s,mid-1,k);
     }
-
+   
 }
 
 int main()
