@@ -14,7 +14,7 @@ bool linearSearch(int arr[], int n, int key)
     }
     
 }
-
+ 
 int main()
 {
     int t;
