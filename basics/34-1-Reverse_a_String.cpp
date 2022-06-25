@@ -21,7 +21,7 @@ int main()
     while (t--)
     {
         int n;
-        cin >> n;
+        cin >> n; 
 
         string name; 
         cin>>name;
