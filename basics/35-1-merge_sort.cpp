@@ -7,9 +7,8 @@ void merge(int *arr, int s, int e)
     int mid = s + (e-s) / 2;
 
     int len1 = mid - s + 1;
-    int len2 = e - mid;
-
     int *first = new int[len1];
+    int len2 = e - mid;
     int *second = new int[len2];
 
     // copy values
