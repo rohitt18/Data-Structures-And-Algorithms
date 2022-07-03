@@ -1,10 +1,13 @@
-#include <iostream>
-using namespace std;
+// 1. Linear Search 
+// T.C => O(n)
+// S.C => O(1)
 
-int main()
-{
-    int n;
-    cin >> n;
+// // Recursive
+// 2. Factorial 
+// T.C => O(n)
+// S.C => O(1)
 
-    return 0;
-}
+// 3. Binary Search
+// T.C => O(logn)
+// S.C => O(1)
+
