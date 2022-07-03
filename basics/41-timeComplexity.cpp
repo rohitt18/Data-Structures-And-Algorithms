@@ -3,6 +3,7 @@
 // S.C => O(1)
 
 // // Recursive
+
 // 2. Factorial 
 // T.C => O(n)
 // S.C => O(1)
@@ -11,3 +12,6 @@
 // T.C => O(logn)
 // S.C => O(1)
 
+// 4. Merge Sort
+// T.C => O(nlogn)
+// S.C => O(1)
