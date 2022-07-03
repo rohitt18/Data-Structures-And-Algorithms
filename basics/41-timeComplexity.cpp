@@ -15,3 +15,7 @@
 // 4. Merge Sort
 // T.C => O(nlogn)
 // S.C => O(1)
+
+// 5. Fibonacci 
+// T.C => O(2^n)
+// S.C => O(1)
