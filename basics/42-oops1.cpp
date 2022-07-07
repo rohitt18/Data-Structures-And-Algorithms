@@ -39,6 +39,7 @@ int main()
     cout<<"Ramesh health is " << ramesh.getHealth() << endl; // garbage value
 
     // use setter
+    
     ramesh.setHealth(70);
     // ramesh.health = 70;
     ramesh.level = 'A';
