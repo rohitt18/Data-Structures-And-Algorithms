@@ -3,7 +3,9 @@
     "ostream": "cpp",
     "vector": "cpp",
     "sstream": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "span": "cpp",
+    "type_traits": "cpp"
   },
   "C_Cpp.errorSquiggles": "Enabled"
 }
