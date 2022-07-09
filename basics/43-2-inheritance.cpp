@@ -6,6 +6,8 @@ class Human {
     public:
     int height;
     int weight;
+
+    private:
     int age;
 
     public:
@@ -19,7 +21,7 @@ class Human {
 
 };
 
-class Male:public Human {
+class Male:private Human {
 
     public:
     string color;
@@ -28,22 +30,34 @@ class Male:public Human {
         cout<<"Male sleeping"<<endl;
     }
 
+    int getHeight() {
+        return this->height;
+    }
+
 };
 
 // Male is inheriting the properties from Human
 
 int main()
-{   
-    Male obj1;
+{  
+    Male m1;
 
-    cout<<obj1.age<<endl;
-    cout<<obj1.height<<endl;
-    cout<<obj1.weight<<endl;
+    cout<<m1.getHeight()<<endl;
 
-    cout<<obj1.color<<endl;
-    obj1.setWeight(100);
-    cout<<obj1.weight<<endl;
-    obj1.sleep();
+
+
+
+
+    // Male obj1;
+
+    // cout<<obj1.age<<endl;
+    // cout<<obj1.height<<endl;
+    // cout<<obj1.weight<<endl;
+
+    // cout<<obj1.color<<endl;
+    // obj1.setWeight(100);
+    // cout<<obj1.weight<<endl;
+    // obj1.sleep();
 
     return 0;
 }
