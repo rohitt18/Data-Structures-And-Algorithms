@@ -47,7 +47,6 @@ int main()
 
 
 
-
     // Male obj1;
 
     // cout<<obj1.age<<endl;
