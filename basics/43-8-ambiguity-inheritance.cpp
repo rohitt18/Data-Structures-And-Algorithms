@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// AMBIGUITY INHERITANCE
+
 class A {
     public:
     void func() {
