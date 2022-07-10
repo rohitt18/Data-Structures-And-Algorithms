@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// HYBRID INHERITANCE
+
 // Parent class1
 class Vehicle {
     public: 
