@@ -83,12 +83,5 @@ int main() {
     Dog object;
     object.speak();
 
-
-
-
-
-
-
-
     return 0;
 }
