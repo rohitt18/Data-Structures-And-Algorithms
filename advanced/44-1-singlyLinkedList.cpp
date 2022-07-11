@@ -156,8 +156,11 @@ int main()
     cout<<"head: "<<head->data<<endl;
     cout<<"tail: "<<tail->data<<endl;
 
-    deleteNode(head,1); 
+    deleteNode(head,4); 
     print(head);
+
+    cout<<"head: "<<head->data<<endl;
+    cout<<"tail: "<<tail->data<<endl;
 
     return 0;
 }
