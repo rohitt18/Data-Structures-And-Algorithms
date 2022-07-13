@@ -69,26 +69,12 @@ void print(Node* &tail) {
 
 }
 
-// void print(Node *tail)
-// {
+void deleteNode() {
 
-//     Node *temp = tail;
+    // empty list
+    
+}
 
-//     // empty list
-//     if (tail == NULL)
-//     {
-//         cout << "List is Empty " << endl;
-//         return;
-//     }
-
-//     do
-//     {
-//         cout << tail->data << " ";
-//         tail = tail->next;
-//     } while (tail != temp);
-
-//     cout << endl;
-// }
 
 int main()
 {   
