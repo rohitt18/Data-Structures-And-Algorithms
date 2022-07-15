@@ -28,12 +28,10 @@ bool isCircular(Node* head) {
     while(temp!=NULL && temp!=head) {
         temp = temp->next;
     }
-    if(temp == NULL){
-        return false;
-    }
     if(temp==head){
         return true;
     }
+    return false;
 }
 
 int main()
