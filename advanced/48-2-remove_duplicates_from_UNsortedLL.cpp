@@ -60,3 +60,6 @@ Node *removeDuplicates(Node *head)
     }
     return head;
 }
+
+// Approach 3 : sort the LL and use previous problem algo
+// O(n) O(1)
