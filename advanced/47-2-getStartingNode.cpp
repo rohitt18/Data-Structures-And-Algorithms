@@ -32,7 +32,7 @@ private:
     }
 
 public:
-    ListNode *detectCycle(ListNode *head)
+    ListNode *getStartingNode(ListNode *head)
     {
 
         // empty list
